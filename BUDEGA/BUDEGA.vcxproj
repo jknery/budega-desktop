@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5728B2C7-4960-4774-9208-66EA8ACC2254}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>BUDEGA</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CadastroDadosAlimenticios.cpp" />
+    <ClCompile Include="CadastroDadosCLIENTES.cpp" />
+    <ClCompile Include="CadastroDadosFornecedores.cpp" />
+    <ClCompile Include="CadastroDadosPerfumaria.cpp" />
+    <ClCompile Include="CadastroDadosProdSaude.cpp" />
+    <ClCompile Include="CadastroDadosSaneantes.cpp" />
+    <ClCompile Include="CADASTRO_ALIMENTOS.cpp" />
+    <ClCompile Include="CADASTRO_CLIENTES.cpp" />
+    <ClCompile Include="CADASTRO_FORNECEDOR.cpp" />
+    <ClCompile Include="CADASTRO_PERFUMARIA.cpp" />
+    <ClCompile Include="CADASTRO_PRODUTOS_SAUDE.cpp" />
+    <ClCompile Include="CADASTRO_SANEANTES.cpp" />
+    <ClCompile Include="DATA_BASE_ALIMENTICIOS.cpp" />
+    <ClCompile Include="DATA_BASE_CLIENTES.cpp" />
+    <ClCompile Include="DATA_BASE_FORNECEDORES.cpp" />
+    <ClCompile Include="DATA_BASE_PERFUMARIA.cpp" />
+    <ClCompile Include="DATA_BASE_PROD_SAUDE.cpp" />
+    <ClCompile Include="DATA_BASE_SANEANTES.cpp" />
+    <ClCompile Include="EXCLUIR_USUARIO.cpp" />
+    <ClCompile Include="EXIBIR_CLIENTES.cpp" />
+    <ClCompile Include="EXIBIR_FORNECEDORES.cpp" />
+    <ClCompile Include="EXIBIR_USUARIOS.cpp" />
+    <ClCompile Include="LOAD.cpp" />
+    <ClCompile Include="LOGIN.cpp" />
+    <ClCompile Include="loginConsole.cpp" />
+    <ClCompile Include="MENU_PRINCIPAL.cpp" />
+    <ClCompile Include="NOVO_LOGIN.cpp" />
+    <ClCompile Include="PAGAMENTOS.cpp" />
+    <ClCompile Include="PAGTORS.cpp" />
+    <ClCompile Include="PESQUISAR_CLIENTE.cpp" />
+    <ClCompile Include="VENDAS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BUDEGA.h" />
+    <ClInclude Include="BUDEGAGUI.h" />
+    <ClInclude Include="CadastroDados.h" />
+    <ClInclude Include="CADASTRO_ALIMENTOS.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CADASTRO_CLIENTES.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CADASTRO_FORNECEDOR.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CADASTRO_PERFUMARIA.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CADASTRO_PRODUTOS_SAUDE.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CADASTRO_SANEANTES.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EXCLUIR_USUARIO.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EXIBIR_CLIENTES.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EXIBIR_FORNECEDORES.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="EXIBIR_USUARIOS.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LOAD.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LOGIN.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="loginConsole.h" />
+    <ClInclude Include="MENU_PRINCIPAL.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="NOVO_LOGIN.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PAGAMENTOS.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PAGTORS.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PESQUISAR_CLIENTE.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="VENDAS.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CADASTRO_ALIMENTOS.resx">
+      <DependentUpon>CADASTRO_ALIMENTOS.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTRO_CLIENTES.resx">
+      <DependentUpon>CADASTRO_CLIENTES.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTRO_FORNECEDOR.resx">
+      <DependentUpon>CADASTRO_FORNECEDOR.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTRO_PERFUMARIA.resx">
+      <DependentUpon>CADASTRO_PERFUMARIA.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTRO_PRODUTOS_SAUDE.resx">
+      <DependentUpon>CADASTRO_PRODUTOS_SAUDE.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CADASTRO_SANEANTES.resx">
+      <DependentUpon>CADASTRO_SANEANTES.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXCLUIR_USUARIO.resx">
+      <DependentUpon>EXCLUIR_USUARIO.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXIBIR_CLIENTES.resx">
+      <DependentUpon>EXIBIR_CLIENTES.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXIBIR_FORNECEDORES.resx">
+      <DependentUpon>EXIBIR_FORNECEDORES.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EXIBIR_USUARIOS.resx">
+      <DependentUpon>EXIBIR_USUARIOS.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOAD.resx">
+      <DependentUpon>LOAD.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_PRINCIPAL.resx">
+      <DependentUpon>MENU_PRINCIPAL.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NOVO_LOGIN.resx">
+      <DependentUpon>NOVO_LOGIN.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAGAMENTOS.resx">
+      <DependentUpon>PAGAMENTOS.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAGTORS.resx">
+      <DependentUpon>PAGTORS.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PESQUISAR_CLIENTE.resx">
+      <DependentUpon>PESQUISAR_CLIENTE.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VENDAS.resx">
+      <DependentUpon>VENDAS.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

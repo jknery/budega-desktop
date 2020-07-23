@@ -1,0 +1,103 @@
+  BUDEGA.CADASTRO_ALIMENTOS.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.CADASTRO_CLIENTES.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.CADASTRO_FORNECEDOR.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.CADASTRO_PERFUMARIA.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.CADASTRO_PRODUTOS_SAUDE.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.CADASTRO_SANEANTES.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.EXCLUIR_USUARIO.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.EXIBIR_CLIENTES.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.EXIBIR_FORNECEDORES.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.EXIBIR_USUARIOS.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.LOAD.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.LOGIN.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.MENU_PRINCIPAL.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.NOVO_LOGIN.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.PAGAMENTOS.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.PAGTORS.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.PESQUISAR_CLIENTE.resources - Embedded, ContainedInManifestFile, 
+  BUDEGA.VENDAS.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly BUDEGA, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class BUDEGA.CADASTRO_ALIMENTOS: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.CADASTRO_CLIENTES: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.CADASTRO_FORNECEDOR: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.CADASTRO_PERFUMARIA: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.CADASTRO_PRODUTOS_SAUDE: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.CADASTRO_SANEANTES: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.EXCLUIR_USUARIO: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.EXIBIR_CLIENTES: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.EXIBIR_FORNECEDORES: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.EXIBIR_USUARIOS: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.NOVO_LOGIN: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.PESQUISAR_CLIENTE: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.PAGTORS: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setTOTALG(String): PrivateScope, Public, HideBySig
+    getTOTALG(): PrivateScope, Public, HideBySig
+Class BUDEGA.PAGAMENTOS: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setTOTAL(String): PrivateScope, Public, HideBySig
+    getTOTAL(): PrivateScope, Public, HideBySig
+Class BUDEGA.VENDAS: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 QNTD : Public
+    Single SUBTOTAL_VENDAS : Public
+    Single TOTAL : Public
+    Single PRECO : Public
+    System.String subtotal_vendas : Public
+    System.String NOME : Public
+    System.String Total : Public
+Class BUDEGA.MENU_PRINCIPAL: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    USER(String, String): PrivateScope, Public, HideBySig
+Class BUDEGA.LOGIN: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class BUDEGA.LOAD: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

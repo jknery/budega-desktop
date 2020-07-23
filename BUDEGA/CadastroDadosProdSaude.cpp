@@ -1,0 +1,75 @@
+#include "CadastroDados.h"
+
+PRODUTOS_SAUDE::PRODUTOS_SAUDE()
+{
+	REFERENCIA = "NULL";
+	NOME_PRODUTO = "NULL";
+	TIPO_PRODUTO = "NULL";
+	MARCA = "NULL";
+	PRECO = 0.0;
+	REGISTRO_ANVISA = "NULL";
+	QUANTIDADE_ESTOQUE = 0;
+}
+
+int PRODUTOS_SAUDE::GET_QNTD_ESTOQUE()
+{
+	return QUANTIDADE_ESTOQUE;
+}
+
+string PRODUTOS_SAUDE::GET_REFERENCIA()
+{
+	return REFERENCIA;
+}
+string PRODUTOS_SAUDE::GET_NOME_PRODUTO()
+{
+	return NOME_PRODUTO;
+}
+
+string PRODUTOS_SAUDE::GET_TIPO_PRODUTO()
+{
+	return TIPO_PRODUTO;
+}
+string PRODUTOS_SAUDE::GET_MARCA()
+{
+	return MARCA;
+}
+float PRODUTOS_SAUDE::GET_PRECO()
+{
+	return PRECO;
+}
+string PRODUTOS_SAUDE::GET_REGISTRO_ANVISA()
+{
+	return REGISTRO_ANVISA;
+}
+
+
+void PRODUTOS_SAUDE::SET_QNTD_ESTOQUE(int qntd)
+{
+	QUANTIDADE_ESTOQUE = qntd;
+}
+
+void PRODUTOS_SAUDE::SET_REFERENCIA(string referencia)
+{
+	REFERENCIA = referencia;
+}
+
+void PRODUTOS_SAUDE::SET_NOME_PRODUTO(string nome)
+{
+	NOME_PRODUTO = nome;
+}
+void PRODUTOS_SAUDE::SET_TIPO_PRODUTO(string tipo)
+{
+	TIPO_PRODUTO = tipo;
+}
+void PRODUTOS_SAUDE::SET_MARCA(string marca)
+{
+	MARCA = marca;
+}
+void PRODUTOS_SAUDE::SET_PRECO(float price)
+{
+	PRECO = price;
+}
+void PRODUTOS_SAUDE::SET_REGISTRO_ANVISA(string anvisa)
+{
+	REGISTRO_ANVISA = anvisa;
+}
